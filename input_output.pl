@@ -23,7 +23,7 @@
 %%%%         Swi Compatibility         %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	:- set_prolog_flag(backquoted_string,true).
+	:- set_prolog_flag(back_quotes,string).
 	% Swi LPA backtic string compatibility.
 	:- style_check(-singleton).
 	% Stop Swi warning on singleton vars.
@@ -2108,7 +2108,7 @@
 	% Prints out targets, [S]witched for player input.
 	% Look here Patsantzis. You really need to stop copy-pasting
 	%  code like this. Write a general form of all these
-	%  output_stuff predicates, please. Ç'est pas la mêre a boire!
+	%  output_stuff predicates, please. Ã‡'est pas la mÃªre a boire!
 
 	% Identified: list of [Name - Switch, Id]
 	% Targets: list of [S]witched target names

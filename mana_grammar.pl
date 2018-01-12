@@ -67,7 +67,7 @@ For example:
   ======================================================================
   Name:		Abbey Matron
   Cost:		2W
-  Type:		Creature — Human Cleric
+  Type:		Creature â€” Human Cleric
   Pow/Tgh:	(1/3)
   Rules Text:	{W}, {T}: Abbey Matron gets +0/+3 until end of turn.
   Set/Rarity:	Homelands Common, Homelands Common
@@ -82,7 +82,7 @@ text box:
   ======================================================================
   Name:		Avatar of Discord
   Cost:		(B/R)(B/R)(B/R)
-  Type:		Creature — Avatar
+  Type:		Creature â€” Avatar
   Pow/Tgh:	(5/3)
   Rules Text:	({(b/r)} can be paid with either {B} or {R}.)
                 Flying
@@ -161,7 +161,7 @@ symbols where it appears as {S}i{S}i}:
   =======================================================================
   Name:		Frost Raptor
   Cost:		2U
-  Type:		Snow Creature — Bird
+  Type:		Snow Creature â€” Bird
   Pow/Tgh:	(2/2)
   Rules Text:	Flying
                {S}i{S}i}: Frost Raptor gains shroud until end of turn.

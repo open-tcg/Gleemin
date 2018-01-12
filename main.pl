@@ -17,7 +17,7 @@
 %%%%         Swi Compatibility         %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	:- set_prolog_flag(backquoted_string,true).
+	:- set_prolog_flag(back_quotes,string).
 	% Swi LPA backtic string compatibility.
 	:- style_check(-singleton).
 	% Stop Swi warning on singleton vars.
@@ -71,7 +71,6 @@
 				'cards.pl',
 				'creature_combat.pl',
 				'input_output.pl',
-		%		'MGL_interpreter.pl',
 				'mgl_interpreter.pl',
 				'player_actions.pl',
 				'turn_sequence.pl',
