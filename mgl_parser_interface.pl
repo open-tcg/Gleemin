@@ -46,7 +46,7 @@
 %%%%         Swi Compatibility         %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	:- set_prolog_flag(backquoted_string,true).
+	:- set_prolog_flag(back_quotes,string).
 	% Swi LPA backtic string compatibility.
 	:- style_check(-singleton).
 	% Stop Swi warning on singleton vars.
